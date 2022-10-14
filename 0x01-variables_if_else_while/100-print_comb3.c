@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success/completed)
  */
 int main(void)
 {
@@ -20,12 +20,10 @@ int main(void)
 	{
 	break;
 	}
-
 	putchar(',');
 	putchar (' ');
 
 	}
-
 	}
 
 	putchar('\n');
